@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+.header{
+    background: url("https://i.pinimg.com/564x/00/f0/1e/00f01e2ed2b8b493fb398d3227807a09.jpg");
+    background-size: contain;
+    height: 230px;
+    font-size: 42px;
+    color: whitesmoke;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+}
+
+.card{
+    margin: 50px 15px;
+    transition: 0.9s;
+    box-shadow: 2px 2px 4px gainsboro;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+.card img{
+    height: 60%;
+}
